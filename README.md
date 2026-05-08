@@ -13,6 +13,6 @@ Requirement untuk menggunakan code ini ialah:
 
 Dan disarankan untuk menulis kode secara manual (bukan copy-paste) agar bertujuan dapat memahami kode dengan baik.
 
-Apabila ada saran ataupun diskusi terhadap repository project ini, dapat menghubungi saya melalui discord: alterize.
+Apabila ada saran ataupun diskusi terhadap repository project ini, dapat menghubungi saya melalui discord: alterize
 
 Terima kasih.
