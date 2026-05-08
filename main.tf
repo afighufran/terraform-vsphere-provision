@@ -38,7 +38,7 @@ module "db_server" {
   vm_cpu         = 4
   vm_ram         = 4096
 
-  vm_ip_prefix = "172.16.9"
+  vm_ip_prefix = "192.168.100"
   vm_ip_start  = 190
   vm_netmask   = var.vm_netmask
   vm_gateway   = var.vm_gateway
@@ -61,7 +61,7 @@ module "app_server" {
   vm_cpu         = 2
   vm_ram         = 2048
 
-  vm_ip_prefix = "172.16.9"
+  vm_ip_prefix = "192.168.100"
   vm_ip_start  = 195
   vm_netmask   = var.vm_netmask
   vm_gateway   = var.vm_gateway
