@@ -52,12 +52,12 @@ variable "vm_ram" {
 #Network Logics
 variable "vm_ip_prefix" {
   type        = string
-  description = "three octets for ip prefix e.g. 172.16.9"
+  description = "three octets for ip prefix e.g. 192.168.100"
 }
 
 variable "vm_ip_start" {
   type        = number
-  description = "last octet for ip prefix"
+  description = "last octet for ip prefix e.g. 1"
 }
 
 variable "vm_netmask" {
