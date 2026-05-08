@@ -3,6 +3,8 @@
 
 Project ini dibuat untuk mendokumentasikan proses pembelajaran saya pada tools terraform. Dan project ini bertujuan untuk dapat melakukan provisioning VM pada vSphere environment.
 
+Goals pada project ini ialah mengenalkan best practice penulisan kode untuk tidak menyantumkan credentials secara hard-coded di file .tfvars, dan juga mengenalkan fitur modules agar kode reusable dan memiliki standarisasi.
+
 Dengan ini diharapkan kode ini dapat bermanfaat terhadap orang yang ingin belajar terraform namun pada environment on-premise.
 
 Untuk segala macam koneksi ke vSphere maupun variable resource pada vSphere bisa dilihat pada file terraform.tfvars.example.
