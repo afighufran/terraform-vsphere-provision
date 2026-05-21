@@ -1,3 +1,13 @@
+terraform {
+  backend "pg" {}
+
+  required_providers {
+    vsphere = {
+      source  = "vmware/vsphere"
+    }
+  }
+}
+
 provider "vsphere" {
   user                 = var.vsphere_user
   password             = var.vsphere_password
