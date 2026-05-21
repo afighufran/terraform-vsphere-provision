@@ -9,7 +9,7 @@ module "ubuntu_24_server" {
   vsphere_datastore  = var.vsphere_datastore
   vsphere_network    = var.vsphere_network
   vsphere_template   = var.vsphere_template
-  
+
   vm_count       = var.vm_count
   vm_name_prefix = var.vm_name_prefix
   vm_cpu         = var.vm_cpu
@@ -32,7 +32,7 @@ module "db_server" {
   vsphere_datastore  = var.vsphere_datastore
   vsphere_network    = var.vsphere_network
   vsphere_template   = var.vsphere_template
-  
+
   vm_count       = 3
   vm_name_prefix = "db-server"
   vm_cpu         = 4
@@ -55,7 +55,7 @@ module "app_server" {
   vsphere_datastore  = var.vsphere_datastore
   vsphere_network    = var.vsphere_network
   vsphere_template   = var.vsphere_template
-  
+
   vm_count       = 3
   vm_name_prefix = "app-server"
   vm_cpu         = 2
