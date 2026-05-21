@@ -1,3 +1,11 @@
+terraform {
+  required_providers {
+    vsphere = {
+      source = "vmware/vsphere"
+    }
+  }
+}
+
 resource "vsphere_virtual_machine" "vm_belajar" {
   count                  = var.vm_count
   name                   = "${var.vm_name_prefix}-${count.index + 1}"
