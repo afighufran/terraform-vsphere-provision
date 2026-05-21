@@ -1,0 +1,1 @@
+bagian env-blank ini bertujuan untuk membuat VM from scratch, jadi tidak bergantung dengan template.
