@@ -1,0 +1,23 @@
+#Credentials vCenter
+vsphere_user     = ""
+vsphere_password = ""
+vsphere_server   = ""
+
+#Resource vCenter
+vsphere_datacenter = ""
+vsphere_cluster    = ""
+vsphere_datastore  = ""
+vsphere_network    = ""
+vsphere_template   = ""
+
+#Networking
+vm_ip_prefix = ""
+vm_ip_start  = 
+vm_netmask   = 
+vm_gateway   = ""
+
+#Resource
+vm_count       = 
+vm_name_prefix = ""
+vm_cpu         = 
+vm_ram         = 
