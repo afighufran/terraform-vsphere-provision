@@ -47,4 +47,7 @@ resource "vsphere_virtual_machine" "vm_belajar" {
       ipv4_gateway = var.vm_gateway
     }
   }
+  lifecycle {
+    prevent_destroy = true
+  }
 }

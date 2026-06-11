@@ -71,7 +71,3 @@ moved {
   from = vsphere_virtual_machine.vm_belajar
   to   = module.ubuntu_24_server.vsphere_virtual_machine.vm_belajar
 }
-
-lifecycle {
-  prevent_destroy = true
-}
