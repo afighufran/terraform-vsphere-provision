@@ -1,0 +1,1 @@
+cara gunainnya ketik aja terraform import vsphere_virtual_machine.vm_import "/Datacenter/vm/[vm folder, opsional kalau ga ada gausah isi]/[nama vm nya yang mau diimport]"
