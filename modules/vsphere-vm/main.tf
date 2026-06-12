@@ -8,7 +8,7 @@ terraform {
 
 resource "vsphere_virtual_machine" "vm_belajar" {
   count                  = var.vm_count
-  name                   = "${var.vm_name_prefix}-${count.index + 1}"
+  name                   = "server-${var.vm_name_prefix}-${format("%02d", count.index + 1)}"
   resource_pool_id       = data.vsphere_compute_cluster.cluster.resource_pool_id
   datastore_id           = data.vsphere_datastore.datastore.id
   cpu_hot_add_enabled    = true
@@ -35,7 +35,7 @@ resource "vsphere_virtual_machine" "vm_belajar" {
 
     customize {
       linux_options {
-        host_name = "${var.vm_name_prefix}-${count.index + 1}"
+        host_name = "server-${var.vm_name_prefix}-${format("%02d", count.index + 1)}"
         domain    = "local"
       }
 

@@ -34,13 +34,11 @@ variable "vsphere_template" {
 
 #Resource Specs
 variable "vm_count" {
-  type    = number
-  default = 1
+  type = number
 }
 
 variable "vm_name_prefix" {
-  type    = string
-  default = "lab-tf"
+  type = string
 }
 
 variable "vm_cpu" {
@@ -54,12 +52,12 @@ variable "vm_ram" {
 #Network Logics
 variable "vm_ip_prefix" {
   type        = string
-  description = "Three Octets For IP Prefix e.g. 192.168.100"
+  description = "three octets for ip prefix e.g. 192.168.100"
 }
 
 variable "vm_ip_start" {
   type        = number
-  description = "Last Octet For IP Prefix e.g. 1"
+  description = "last octet for ip prefix e.g. 1"
 }
 
 variable "vm_netmask" {

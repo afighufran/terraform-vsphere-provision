@@ -1,0 +1,18 @@
+terraform {
+  backend "pg" {
+    #Dikosongkan saja karena kita akan menggunakan state remote pada postgres
+  }
+
+  required_providers {
+    vsphere = {
+      source = "vmware/vsphere"
+    }
+  }
+}
+
+provider "vsphere" {
+  user                 = var.vsphere_user
+  password             = var.vsphere_password
+  vsphere_server       = var.vsphere_server
+  allow_unverified_ssl = true
+}
